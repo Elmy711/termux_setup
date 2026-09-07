@@ -1,5 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# SC BERSIH TERMUX INTERAKTIF v3.1 - FIX PERMISSION
 
 clear
 
@@ -11,7 +10,7 @@ tanya() {
 menu() {
     clear
     echo "=================================="
-    echo " BERSIH-BERSIH TERMUX v3.1"
+    echo " CLEAN TERMUX "
     echo "=================================="
     echo "Ukuran Home Sekarang: $(du -sh ~ 2>/dev/null | awk '{print $1}')"
     echo "=================================="
